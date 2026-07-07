@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>فروشگاه | ماهورا</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="announcement">ارسال امروز برای سفارش‌های ثبت‌شده تا ساعت ۱۵</div>
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="menu-toggle" data-menu-toggle aria-label="باز کردن منو">☰</button>
+      <a class="logo" href="index.html"><strong>ماهورا</strong><span>بوتیک زنانه</span></a>
+      <nav class="nav" data-nav>
+        <a href="index.html">خانه</a>
+        <a class="active" href="shop.html">فروشگاه</a>
+        <a href="product.html">جزئیات محصول</a>
+        <a href="cart.html">سبد خرید</a>
+        <a href="account.html">حساب کاربری</a>
+      </nav>
+      <div class="header-actions">
+        <label class="search-box"><span>⌕</span><input type="search" placeholder="جستجوی محصول"></label>
+        <a class="icon-btn" href="account.html" aria-label="ورود">♡</a>
+        <a class="icon-btn" href="account.html" aria-label="علاقه‌مندی‌ها">☆</a>
+        <a class="icon-btn" href="cart.html" aria-label="سبد خرید">⌑</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">فروشگاه ماهورا</p>
+      <h1>کالکشن پوشاک زنانه</h1>
+      <p>انتخاب بر اساس دسته، سایز، رنگ و بازه قیمت.</p>
+    </section>
+
+    <section class="shop-layout">
+      <aside class="filters">
+        <div class="filter-group">
+          <h3>دسته‌بندی</h3>
+          <div class="choice-list">
+            <label><input type="checkbox"> مانتو و رویه</label>
+            <label><input type="checkbox"> پیراهن</label>
+            <label><input type="checkbox"> کت و شلوار</label>
+            <label><input type="checkbox"> اکسسوری</label>
+          </div>
+        </div>
+        <div class="filter-group">
+          <h3>سایز</h3>
+          <div class="option-row" data-chip-group>
+            <button class="chip active">۳۶</button><button class="chip">۳۸</button><button class="chip">۴۰</button><button class="chip">۴۲</button><button class="chip">۴۴</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <h3>رنگ</h3>
+          <div class="choice-list">
+            <label><input type="checkbox"> کرم</label>
+            <label><input type="checkbox"> موکا</label>
+            <label><input type="checkbox"> رز</label>
+            <label><input type="checkbox"> رزگلد</label>
+          </div>
+        </div>
+        <div class="filter-group">
+          <h3>قیمت</h3>
+          <div class="choice-list">
+            <label><input type="radio" name="price"> تا ۱ میلیون</label>
+            <label><input type="radio" name="price"> ۱ تا ۳ میلیون</label>
+            <label><input type="radio" name="price"> بالای ۳ میلیون</label>
+          </div>
+        </div>
+        <button class="button ghost" style="width:100%">اعمال فیلتر</button>
+      </aside>
+
+      <div>
+        <div class="toolbar">
+          <p>نمایش ۸ محصول از ۳۲ محصول</p>
+          <select class="select" data-sort aria-label="مرتب‌سازی">
+            <option value="newest">جدیدترین</option>
+            <option value="bestseller">پرفروش‌ترین</option>
+            <option value="price-asc">قیمت کم به زیاد</option>
+            <option value="price-desc">قیمت زیاد به کم</option>
+          </select>
+        </div>
+
+        <div class="products-grid" data-product-grid>
+          <article class="product-card" data-price="2890000" data-sales="72" data-new="8"><a class="product-media" href="product.html"><img src="assets/images/catalog-still.png" alt="کت لینن صدفی"><span class="badge">جدید</span></a><div class="product-info"><h3>کت لینن صدفی</h3><div class="product-meta"><span>مانتو و رویه</span><span>۴ رنگ</span></div><div class="price">۲٬۸۹۰٬۰۰۰ تومان</div></div></article>
+          <article class="product-card" data-price="3420000" data-sales="128" data-new="7"><a class="product-media" href="product.html"><img src="assets/images/hero-collection.png" alt="پیراهن ساتن رز"><span class="badge">پرفروش</span></a><div class="product-info"><h3>پیراهن ساتن رز</h3><div class="product-meta"><span>پیراهن</span><span>۲ رنگ</span></div><div class="price">۳٬۴۲۰٬۰۰۰ تومان <span class="old-price">۳٬۹۰۰٬۰۰۰</span></div></div></article>
+          <article class="product-card" data-price="1790000" data-sales="44" data-new="6"><a class="product-media" href="product.html"><img src="assets/images/catalog-still.png" alt="دامن پلیسه مریم"></a><div class="product-info"><h3>دامن پلیسه مریم</h3><div class="product-meta"><span>دامن</span><span>۳ رنگ</span></div><div class="price">۱٬۷۹۰٬۰۰۰ تومان</div></div></article>
+          <article class="product-card" data-price="2360000" data-sales="91" data-new="5"><a class="product-media" href="product.html"><img src="assets/images/hero-collection.png" alt="مانتو کرپ آوین"><span class="badge">تخفیف</span></a><div class="product-info"><h3>مانتو کرپ آوین</h3><div class="product-meta"><span>مانتو</span><span>۵ رنگ</span></div><div class="price">۲٬۳۶۰٬۰۰۰ تومان</div></div></article>
+          <article class="product-card" data-price="1250000" data-sales="36" data-new="9"><a class="product-media" href="product.html"><img src="assets/images/catalog-still.png" alt="تاپ ابریشم نیلا"></a><div class="product-info"><h3>تاپ ابریشم نیلا</h3><div class="product-meta"><span>بلوز و تاپ</span><span>۲ رنگ</span></div><div class="price">۱٬۲۵۰٬۰۰۰ تومان</div></div></article>
+          <article class="product-card" data-price="1980000" data-sales="64" data-new="4"><a class="product-media" href="product.html"><img src="assets/images/hero-collection.png" alt="شلوار راسته النا"></a><div class="product-info"><h3>شلوار راسته النا</h3><div class="product-meta"><span>شلوار</span><span>۳ رنگ</span></div><div class="price">۱٬۹۸۰٬۰۰۰ تومان</div></div></article>
+          <article class="product-card" data-price="690000" data-sales="83" data-new="3"><a class="product-media" href="product.html"><img src="assets/images/catalog-still.png" alt="شال حریر صدف"><span class="badge">اقتصادی</span></a><div class="product-info"><h3>شال حریر صدف</h3><div class="product-meta"><span>اکسسوری</span><span>۶ رنگ</span></div><div class="price">۶۹۰٬۰۰۰ تومان</div></div></article>
+          <article class="product-card" data-price="2100000" data-sales="57" data-new="2"><a class="product-media" href="product.html"><img src="assets/images/hero-collection.png" alt="جلیقه مخمل آرا"></a><div class="product-info"><h3>جلیقه مخمل آرا</h3><div class="product-meta"><span>جلیقه</span><span>۲ رنگ</span></div><div class="price">۲٬۱۰۰٬۰۰۰ تومان</div></div></article>
+        </div>
+        <div class="load-more"><button class="button ghost" data-label="نمایش محصولات بیشتر" data-toast="محصولات بیشتری بارگذاری شد">نمایش محصولات بیشتر</button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div><h3>ماهورا</h3><p>بوتیک پوشاک زنانه با ارسال سریع و بسته‌بندی هدیه.</p></div>
+      <div><h4>تماس</h4><p>۰۲۱-۲۲۴۴۰۰۰۰</p><p>support@mahora.example</p></div>
+      <div><h4>خدمات</h4><a href="#">پیگیری سفارش</a><br><a href="#">راهنمای سایز</a></div>
+      <div><h4>قوانین</h4><a href="#">مرجوعی</a><br><a href="#">حریم خصوصی</a></div>
+    </div>
+    <div class="footer-bottom">تمام حقوق برای مزون ماهورا محفوظ است.</div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

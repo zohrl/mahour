@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>حساب کاربری | ماهورا</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="announcement">با عضویت در ماهورا، وضعیت سفارش و علاقه‌مندی‌ها را نگه دارید</div>
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="menu-toggle" data-menu-toggle aria-label="باز کردن منو">☰</button>
+      <a class="logo" href="index.html"><strong>ماهورا</strong><span>بوتیک زنانه</span></a>
+      <nav class="nav" data-nav>
+        <a href="index.html">خانه</a>
+        <a href="shop.html">فروشگاه</a>
+        <a href="product.html">جزئیات محصول</a>
+        <a href="cart.html">سبد خرید</a>
+        <a class="active" href="account.html">حساب کاربری</a>
+      </nav>
+      <div class="header-actions">
+        <label class="search-box"><span>⌕</span><input type="search" placeholder="جستجوی محصول"></label>
+        <a class="icon-btn" href="account.html" aria-label="ورود">♡</a>
+        <a class="icon-btn" href="account.html" aria-label="علاقه‌مندی‌ها">☆</a>
+        <a class="icon-btn" href="cart.html" aria-label="سبد خرید">⌑</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">باشگاه مشتریان</p>
+      <h1>حساب کاربری ماهورا</h1>
+      <p>ورود، ثبت‌نام، سفارش‌ها، علاقه‌مندی‌ها و اطلاعات پروفایل.</p>
+    </section>
+
+    <section class="account-layout">
+      <aside class="account-panel">
+        <nav class="account-nav">
+          <a class="active" href="#login">ورود و ثبت‌نام</a>
+          <a href="#orders">سفارش‌ها</a>
+          <a href="#wishlist">علاقه‌مندی‌ها</a>
+          <a href="#profile">اطلاعات پروفایل</a>
+        </nav>
+      </aside>
+
+      <div class="account-main">
+        <section class="account-panel" id="login">
+          <h2 class="section-title">ورود یا ثبت‌نام</h2>
+          <div class="form-grid">
+            <label class="field"><span>شماره موبایل</span><input type="tel" placeholder="۰۹۱۲۱۲۳۴۵۶۷"></label>
+            <label class="field"><span>رمز عبور</span><input type="password" placeholder="••••••••"></label>
+            <label class="field"><span>نام</span><input type="text" placeholder="نام شما"></label>
+            <label class="field"><span>ایمیل</span><input type="email" placeholder="name@example.com"></label>
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px">
+            <button class="button" data-label="ورود" data-toast="ورود آزمایشی انجام شد">ورود</button>
+            <button class="button ghost" data-label="ثبت‌نام" data-toast="حساب آزمایشی ساخته شد">ثبت‌نام</button>
+          </div>
+        </section>
+
+        <section class="account-panel" id="orders">
+          <h2 class="section-title">تاریخچه سفارش</h2>
+          <div class="order-row"><strong>سفارش ۱۰۲۴</strong><span>در حال آماده‌سازی</span><span>۳٬۵۸۰٬۰۰۰ تومان</span></div>
+          <div class="order-row"><strong>سفارش ۰۹۸۷</strong><span>ارسال شده</span><span>۲٬۱۰۰٬۰۰۰ تومان</span></div>
+          <div class="order-row"><strong>سفارش ۰۹۵۲</strong><span>تحویل شده</span><span>۱٬۷۹۰٬۰۰۰ تومان</span></div>
+        </section>
+
+        <section class="account-panel" id="wishlist">
+          <h2 class="section-title">علاقه‌مندی‌ها</h2>
+          <div class="wishlist-mini">
+            <article class="product-card"><a class="product-media" href="product.html"><img src="assets/images/catalog-still.png" alt="کت لینن صدفی"></a><div class="product-info"><h3>کت لینن صدفی</h3><div class="price">۲٬۸۹۰٬۰۰۰ تومان</div></div></article>
+            <article class="product-card"><a class="product-media" href="product.html"><img src="assets/images/hero-collection.png" alt="پیراهن ساتن رز"></a><div class="product-info"><h3>پیراهن ساتن رز</h3><div class="price">۳٬۴۲۰٬۰۰۰ تومان</div></div></article>
+          </div>
+        </section>
+
+        <section class="account-panel" id="profile">
+          <h2 class="section-title">اطلاعات پروفایل</h2>
+          <div class="form-grid">
+            <label class="field"><span>نام و نام خانوادگی</span><input type="text" value="نازنین احمدی"></label>
+            <label class="field"><span>شماره موبایل</span><input type="tel" value="۰۹۱۲۱۲۳۴۵۶۷"></label>
+            <label class="field full"><span>آدرس پیش‌فرض</span><textarea rows="3">تهران، خیابان ولیعصر، پلاک ۱۲</textarea></label>
+          </div>
+          <button class="button" style="margin-top:18px" data-label="ذخیره تغییرات" data-toast="پروفایل ذخیره شد">ذخیره تغییرات</button>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div><h3>ماهورا</h3><p>حساب کاربری برای اتصال آینده به سیستم مشتریان، سفارش‌ها و علاقه‌مندی‌ها آماده است.</p></div>
+      <div><h4>تماس</h4><p>۰۲۱-۲۲۴۴۰۰۰۰</p><p>support@mahora.example</p></div>
+      <div><h4>شبکه‌ها</h4><a href="#">اینستاگرام</a><br><a href="#">تلگرام</a></div>
+      <div><h4>راهنما</h4><a href="#">سوالات پرتکرار</a><br><a href="#">حریم خصوصی</a></div>
+    </div>
+    <div class="footer-bottom">تمام حقوق برای مزون ماهورا محفوظ است.</div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
